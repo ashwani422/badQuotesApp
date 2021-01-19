@@ -1,0 +1,86 @@
+// ---------------------------------------------------------
+// Fonts
+// ---------------------------------------------------------
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+// ---------------------------------------------------------
+// Style for all
+// ---------------------------------------------------------
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  background: #ddd;
+}
+
+header {
+  background: #999;
+
+  a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+  }
+}
+
+// ---------------------------------------------------------
+// Main container
+// ---------------------------------------------------------
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  // background: grey;
+
+  hr {
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    padding: .2em .5em;
+    font-size: 3.5rem;
+    margin-top: .5em;
+    background: #222;
+    color: #fff;
+  }
+
+  .wrapper_main {
+    min-width: 100%;
+  }
+
+  .wrapper {
+    background: #bbb;
+    padding: 1em 2em;
+    margin-top: .8em;
+    font-size: 1.1rem;
+    font-family: PoppinsRegular;
+    letter-spacing: 1px;
+
+    h5 {
+      text-align: right;
+    }
+  }
+}
+
+// ---------------------------------------------------------
+// Footer
+// ---------------------------------------------------------
+footer {
+  margin-top: .5em;
+  padding: .5em;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+}
